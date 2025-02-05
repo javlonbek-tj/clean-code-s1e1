@@ -26,7 +26,9 @@
     width: 500px;
     margin: 0 auto 0;
 }
-.task-item__label, .task-form__input, .task-item__input {
+.task-item__label,
+.task-form__input,
+.task-item__input {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -41,10 +43,14 @@
 .task-list__title {
     list-style: none;
 }
-.task-item__input, .task-item__button, .task-form__input, .task-form__button {
+.task-item__input,
+.task-item__button,
+.task-form__input,
+.task-form__button {
     outline: none;
 }
-.task-item__button, .task-form__button {
+.task-item__button,
+.task-form__button {
     background: none;
     border: 0px;
     color: #888;
@@ -53,7 +59,8 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-.task-item__button:hover, .task-form__button:hover {
+.task-item__button:hover,
+.task-form__button:hover {
     color: #3a3A3a;
 }
 /* Heading */
@@ -67,7 +74,8 @@
     margin: 0;
     text-transform: uppercase;
 }
-.task-item__input, .task-form__input {
+.task-item__input,
+.task-form__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -79,7 +87,8 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
-.task-item__input:focus, .task-form__input:focus {
+.task-item__input:focus,
+.task-form__input:focus {
     color: #333;
 }
 
@@ -97,7 +106,6 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
